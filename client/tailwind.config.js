@@ -13,7 +13,7 @@ function withOpacity(variableName) {
 }
 
 export default {
-  content: ["./index.html", "./src/**/*.{js, ts, jsx, tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -46,11 +46,11 @@ export default {
         success: withOpacity("--color-success"),
         warning: withOpacity("--color-warning"),
         error: withOpacity("--color-error"),
-      }, 
+      },
       container: {
         center: true,
         padding: "1rem",
-      }, 
+      },
       fontFamily: {
         sans: ["Vazir", ...fontFamily.sans],
       },

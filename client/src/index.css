@@ -1,4 +1,3 @@
-
 @import url("/fonts.css");
 
 @tailwind base;
@@ -199,5 +198,7 @@ table td {
     padding: 1rem 1rem;
     color: rgb(var(--color-secondary-600));
 }
+
+
 
 /*  react tag input */
