@@ -21,7 +21,7 @@ function CheckOTPForm() {
                         borderRadius: "0.5rem",
                     }}
                 />
-                <button className="btn btn--primary w-full">تایید</button>
+                <button  type="submit" className="btn btn--primary w-full">تایید</button>
             </form>
         </div>
     );
